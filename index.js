@@ -32,5 +32,7 @@ module.exports = function plugin (css, options) {
                 }
             })
         })
+
+        return root
     }
 }
