@@ -8,8 +8,6 @@ A module for ACSS to prohibit rules from cascading
 $ npm install postcss-acss-constant
 ```
 
-## Example
-
 ## License
 
 The MIT License (MIT)
