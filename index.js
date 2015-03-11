@@ -6,8 +6,6 @@ module.exports = function plugin (css, options) {
 
     var blocks = annotationBlock(css)
 
-    var inspect = require('obj-inspector')
-
     var constantNodes = []
     blocks.forEach(function (block) {
         if (block.name === "constant") {
