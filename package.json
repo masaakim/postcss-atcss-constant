@@ -4,15 +4,22 @@
   "description": "A module for ACSS to prohibit rules from cascading",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "tape test"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/morishitter/postcss-acss-constant/git"
   },
-  "keywords": ["acss"],
+  "keywords": [
+    "acss"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "postcss": "^4.0.6",
+    "css-annotation-block": "0.0.3"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
 }

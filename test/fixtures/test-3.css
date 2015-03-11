@@ -1,0 +1,10 @@
+/* @start constant */
+
+.class {}
+
+.hoge > .class {
+    color: red;
+}
+
+/* @end constant */
+
