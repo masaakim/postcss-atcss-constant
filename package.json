@@ -1,17 +1,17 @@
 {
-  "name": "postcss-acss-constant",
+  "name": "postcss-atcss-constant",
   "version": "0.0.2",
-  "description": "A module for ACSS to prohibit rules from cascading",
+  "description": "A module for AtCSS to prohibit rules from cascading",
   "main": "index.js",
   "scripts": {
     "test": "tape test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/morishitter/postcss-acss-constant/git"
+    "url": "git://github.com/morishitter/postcss-atcss-constant/git"
   },
   "keywords": [
-    "acss"
+    "atcss"
   ],
   "author": "Masaaki Morishita",
   "license": "MIT",
