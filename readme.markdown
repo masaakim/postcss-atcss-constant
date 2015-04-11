@@ -1,6 +1,6 @@
 # postcss-atcss-constant [![Build Status](https://travis-ci.org/morishitter/postcss-atcss-constant.svg)](https://travis-ci.org/morishitter/postcss-atcss-constant)
 
-A module for AtCSS to prohibit rules from cascading
+A module for AtCSS to prohibit rules from cascading.
 
 ## Install
 
