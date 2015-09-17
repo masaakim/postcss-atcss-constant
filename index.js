@@ -20,7 +20,7 @@ module.exports = function plugin (css, options) {
     return function (root) {
         strings.forEach(function (string) {
             var ast = postcss.parse(string)
-            ast.eachRule(function (rule) {
+            ast.walkRules(function (rule) {
                 var nextRule = rule.next()
                 while (nextRule) {
                     var selArray = nextRule.selector.split(' ')

@@ -16,7 +16,7 @@
   "author": "Masaaki Morishita",
   "license": "MIT",
   "dependencies": {
-    "postcss": "^4.0.6",
+    "postcss": "^5.0.5",
     "css-annotation-block": "0.0.3"
   },
   "devDependencies": {
